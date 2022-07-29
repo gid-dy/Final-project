@@ -63,7 +63,7 @@
 
                         <!-- SIDEBAR -->
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 panel-group dest" id="sidebar">
-                            @include('layouts.frontlayout.user_sidebar')
+                            @include('layouts.frontLayout.user_sidebar')
                         </div>
                         <!-- end sidebar -->
                     </div>
