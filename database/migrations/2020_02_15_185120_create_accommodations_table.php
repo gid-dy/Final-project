@@ -16,7 +16,6 @@ class CreateAccommodationsTable extends Migration
         Schema::create('accommodations', function (Blueprint $table) {
             $table->bigIncrements('id');
 			$table->string('AccommodationName', 255);
-			$table->unsignedBiginteger('Package_id')->index('RefTourPackages28');
             $table->timestamps();
         });
     }
