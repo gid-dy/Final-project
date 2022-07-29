@@ -66,7 +66,7 @@ use App\Tourpackages;
 
                 <!-- SIDEBAR -->
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 panel-group dest1" id="sidebar">
-                    @include('layouts.frontlayout.user_sidebar')
+                    @include('layouts.frontLayout.user_sidebar')
                 </div>
                 <!-- end sidebar -->
 
