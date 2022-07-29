@@ -28,9 +28,10 @@ $cartCount = Tourpackages::cartCount();
                                         <button class="btn btn-outline-success bg-success button" style="border=0px;" type="submit"><i class="fa fa-search"></i></button>
                                 </form>
                             </li>
-                            <li><a href="{{ url('register') }}"><i class="fa fa-user-plus"></i> {{ __('Sign Up') }}</a></li>
+                            
                             @if(empty(Auth::check()))
                                         <li><a href="{{ url('login') }}"><i class="fa fa-sign-in"></i> {{ __('Sign In') }}</a></li>
+                                        <li><a href="{{ url('register') }}"><i class="fa fa-user-plus"></i> {{ __('Sign Up') }}</a></li>
                                 @else
                                 <li class="nav-item dropdown" style="float:right;">
                                     <a id="navbarDropdown" class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
